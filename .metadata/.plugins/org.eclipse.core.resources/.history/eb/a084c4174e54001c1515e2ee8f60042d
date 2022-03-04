@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class ArrayL {
+
+	public static void main(String[] args) {
+		ArrayList list = new ArrayList();
+		
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		
+		ListIterator i = list.listIterator();
+		
+		while(i.hasNext())
+		{
+			Integer j = (Integer)i.next();
+			System.out.println(j);
+		}
+		while(i.hasPrevious())
+		{
+			Integer k = (Integer)i.next();
+			System.out.println(k);
+		}
+
+System.out.println(list);		
+		
+
+	}
+
+}

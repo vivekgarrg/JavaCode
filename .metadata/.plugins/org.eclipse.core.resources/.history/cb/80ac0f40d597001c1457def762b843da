@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class TreeSetTest {
+
+	public static void main(String[] args) {
+		TreeSet ts =new TreeSet();
+		ts.add("hello");
+		ts.add("vivek");
+		ts.add(null);
+		System.out.println(ts);
+		
+
+	}
+
+}

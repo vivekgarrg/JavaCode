@@ -1,0 +1,31 @@
+import java.util.*;
+public class DataSmoothing {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		ArrayList<Integer> list = new ArrayList<>();
+		
+		System.out.println("Enter the total number of data");
+		int n =sc.nextInt();
+		System.out.println("Enter the data:--->");
+		for(int i=0; i<n; i++)
+		{
+			list.add(sc.nextInt());
+		}
+		
+		System.out.println("Enter depth of bin");
+		int depth = sc.nextInt();
+		int k=0;
+		for(int i=0; i<list.size()/depth; i++)
+		{
+			for(int j=0; j<depth; j++)
+			{
+				System.out.print("Bin"+i+1+": "+list.get(k)+" ");
+				k++;
+			}
+			System.out.println();
+		}
+		
+	}
+
+}

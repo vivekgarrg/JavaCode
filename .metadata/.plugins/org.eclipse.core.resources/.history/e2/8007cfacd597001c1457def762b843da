@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class TreeSetTest {
+
+	public static void main(String[] args) {
+		TreeSet ts =new TreeSet();
+		for(int i=0; i<10; i++)
+		{
+			ts.add(i);
+			ts.add(i);
+		}
+		Integer i = (int)ts.first();
+		System.out.println(ts);
+		
+
+	}
+
+}

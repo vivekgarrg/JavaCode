@@ -1,0 +1,28 @@
+
+public class primeNumber {
+	
+	public static boolean checkPrime(int n)
+	{
+		int count = 0;
+		
+		for(int i=1; i*i<=n; i++)
+		{
+			if(i*i==n)
+				count+=1;
+			else
+				count +=2;
+		}
+		
+		if(count==2)
+			return true;
+	
+		return false;
+	}
+
+	public static void main(String[] args) {
+		boolean result = checkPrime(7);
+		System.out.println(result);
+
+	}
+
+}

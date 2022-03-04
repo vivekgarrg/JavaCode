@@ -1,0 +1,19 @@
+
+public class Donor {
+private int donor_no;
+private char[] name = new char[20];
+private char[] blood_group = new char[2];
+
+public void input()
+{
+	
+}
+public void output()
+{
+	
+}
+public void display()
+{
+	
+}
+}

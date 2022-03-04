@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class HashMap {
+
+	public static void main(String[] args) {
+		LinkedHashMap<Integer,String> hm=new LinkedHashMap<Integer,String>();  
+		hm.put(1,"vivek");
+		hm.put(1, "hello");
+		hm.put(2, "vive");
+		System.out.println(hm);
+		
+   
+   
+      
+
+	}
+
+}
